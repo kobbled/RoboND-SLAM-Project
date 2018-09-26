@@ -23,7 +23,7 @@ $ source ~/catkin_ws/devel/setup.bash
 launch RTAB-Map
 
 ```sh
-$ cd ~/catkin_ws/src/slam_project/scripts
+$ cd ~/catkin_ws/src/RoboND-SLAM-Project/slam_project/scripts
 $ chmod +x rtab_run
 $ ./rtab_run
 ```
