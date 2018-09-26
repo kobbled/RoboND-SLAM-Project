@@ -1,7 +1,7 @@
-#RoboND-SLAM-Project
+# RoboND-SLAM-Project
 This project uses RTAB-Mapto create a 2D occupancy grid and 3D octomap of simulated environments within gazebo.
 
-#Project Setup
+# Project Setup
 Create a Catkin repository and download this repository into the src folder:
 ```sh
 $ mkdir -p ~/catkin_ws/src
