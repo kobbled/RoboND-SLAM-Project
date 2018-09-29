@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{UdacityLesson15}
+Udacity, ``Lesson 15: Introduction to mapping and slam,'' September 2018.
+
+\bibitem{UdacityLesson18}
+Udacity, ``Lesson 18: Graphslam,'' September 2018.
+
+\bibitem{UdacityLesson17}
+Udacity, ``Lesson 17: Grid-based fastslam,'' September 2018.
+
+\bibitem{OccupancyWiki}
+``Occupancy grid mapping wiki.''
+  \url{https://en.wikipedia.org/wiki/Occupancy_grid_mapping}.
+\newblock Accessed: 2018-09-23.
+
+\bibitem{UdacityLesson16}
+Udacity, ``Lesson 15: Occupancy grid mapping,'' September 2018.
+
+\bibitem{3DGems}
+``3d gems: 3d gazebo models.''
+  \url{http://data.nvision2.eecs.yorku.ca/3DGEMS/}.
+\newblock Accessed: 2018-09-23.
+
+\end{thebibliography}
