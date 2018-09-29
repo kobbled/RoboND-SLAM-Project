@@ -142,7 +142,6 @@
   </joint>
 
   <link name='camera'>
-  <pose>0 0 0.1 0 0 0</pose>
 	<inertial>
 		<mass value="0.1"/>
 		<origin xyz="0 0 0" rpy="0 0 0" />
@@ -156,7 +155,7 @@
 	<collision>
 		<origin xyz="0 0 0" rpy="0 0 0" />
 		<geometry>
-			<box size="0.05 0.05 0.05"/>
+			<box size="0.075 0.280 0.075"/>
 		</geometry>
 	</collision>
 
@@ -168,18 +167,18 @@
 	</visual>
   </link>
 
-  <joint type="fixed" name="camera_jnt">
-	<origin xyz="0.25 0 0" rpy="0 0 0"/>
+  <joint type="fixed" name="camera_joint">
+	<origin xyz="0.23 0 0" rpy="0 0 0"/>
 	<child link="camera"/>
 	<parent link="chassis"/>
-	<axis xyz="0 1 0" rpy="0 0 0"/>
   </joint>
 
-  <link name="camera_rgbd"/>
-  <joint name="camera_rgbd_joint" type="fixed">
+  <link name="camera_rgbd_frame">
+  </link>
+  <joint name="camera_rgbd_frame_joint" type="fixed">
         <origin xyz="0 0 0" rpy="-1.5707 0 -1.5707"/>
+        <child link="camera_rgbd_frame"/>
         <parent link="camera"/>
-        <child link="camera_rgbd"/>
   </joint>
 
   <link name='hokuyo'>
