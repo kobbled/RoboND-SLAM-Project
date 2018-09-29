@@ -1,5 +1,5 @@
 # RoboND-SLAM-Project
-This project uses RTAB-Mapto create a 2D occupancy grid and 3D octomap of simulated environments within gazebo.
+This project uses RTAB-Map to create a 2D occupancy grid and 3D octomap of simulated environments within gazebo.
 
 # Project Setup
 Create a Catkin repository and download this repository into the src folder:
@@ -37,3 +37,5 @@ $ roslaunch slam_project teleop.launch
 $ roslaunch slam_project mapping.launch
 $ roslaunch slam_project rviz.launch
 ```
+
+Changing environments can either be done by updating the world_name argument in the world.launch file, or specifying the .world file when prompted in the rtab_run script.
